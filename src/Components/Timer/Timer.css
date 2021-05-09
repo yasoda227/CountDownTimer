@@ -1,0 +1,79 @@
+div{
+  display: block;
+  box-sizing: border-box;
+}
+
+.count-down-time {
+  padding: 40px;
+  margin: 40px 120px;
+  color: #ffff;
+}
+.count-down-time span {
+  font-size: 60px;
+
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.timer-container {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .timer-container ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 2rem;
+} */
+
+.timer-container ul li {
+  background: rgb(2, 0, 17);
+  border-radius: 10px;
+  /* padding: 50px; */
+  display: inline-block;
+  flex-direction: column;
+  /* margin: 0 0.5rem; */
+  color: rgb(248, 251, 253);
+  box-shadow: 0px 0px 5px #11034eef;
+  font-weight: bold;
+  margin: 10px;
+  min-width: 100px;
+  padding: 50px 0;
+
+}
+
+@media screen and (max-width: 600px) {
+  .count-down-time {
+    padding: 20px !important;
+    margin: 0 !important;
+  }
+  .count-down-time span {
+    font-size: 24px;
+    margin: 6px;
+  }
+  .timer-container ul li {
+    background: rgb(2, 0, 17);
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2.5rem;
+    color: rgb(248, 251, 253);
+    box-shadow: 0px 0px 5px #11034eef;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .count-down-time {
+    padding: 40px;
+    margin: 0 !important;
+  }
+  .count-down-time span {
+    font-size: 40px;
+    margin: 6px;
+  }
+}

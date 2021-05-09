@@ -1,0 +1,21 @@
+.date-input-field {
+  text-align: center;
+  font-size: large;
+}
+.date-input-field input,
+.date-input-field button {
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  color: crimson;
+  margin:0 auto;
+}
+.date-input-field button {
+  width: 10%;
+  background-color:rgb(192, 5, 192);
+  color: #ffff;
+  border: 1px solid rgb(60, 3, 112);
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+
+}

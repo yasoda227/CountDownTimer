@@ -1,0 +1,12 @@
+.error-message {
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+  color: crimson;
+  background-color: whitesmoke;
+  /* background-color: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+  background-size: 110px 200px;
+  background-repeat: repeat-x; */
+} 
